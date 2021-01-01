@@ -1,3 +1,4 @@
+/*------- reset css ---------*/
 html,
 body,
 div,
@@ -164,6 +165,8 @@ select {
   vertical-align: middle;
 }
 
+/*---x---- reset css -----x----*/
+
 /*------------ body ---------------*/
 body {
   box-sizing: border-box;
@@ -171,6 +174,8 @@ body {
 
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn {
@@ -183,6 +188,8 @@ a {
   background: #D84940;
   border-radius: 25px;
   display: inline-block;
+  height: 44px;
+  width: 318px;
 }
 
 
@@ -190,22 +197,43 @@ a {
 
 /*------------ header ------------*/
 
+#header {
+  height: 75px;
+}
+
 .inner {
   width: 1170px;
   margin: 0 auto;
-  height: 75px;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
-  vertical-align: middle;
+  padding-top: 15px;
 }
 
 .inner img {
-  height: 50px;
+  height: 45px;
+  vertical-align: bottom;
 }
 
+.header-btn {
+  height: 44px;
+  width: 318px;
+  border: 1px solid #da6b64;
+  text-align: center;
+  line-height: 44px;
+}
 
+.header-btn a {
+  display: block;
+}
 
-
+.header-btn :hover{
+  background: #D84940;
+  border-radius: 25px;
+  display: inline-block;
+  height: 44px;
+  width: 318px;
+}
 /*------x------ header ------x------*/
 
 /*---------- key-visual ----------*/
