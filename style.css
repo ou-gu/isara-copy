@@ -164,6 +164,51 @@ select {
   vertical-align: middle;
 }
 
+/*------------ body ---------------*/
+body {
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+}
+
+.btn {
+  background: #da6b64;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.btn :hover{
+  background: #D84940;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+
+/* ----x------- body -------x-----*/
+
+/*------------ header ------------*/
+
+.inner {
+  width: 1170px;
+  margin: 0 auto;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.inner img {
+  height: 50px;
+}
+
+
+
+
+/*------x------ header ------x------*/
+
+/*---------- key-visual ----------*/
 .key-visual {
   background-image: url(img/main.jpg);
   background-size: cover;
@@ -174,3 +219,28 @@ select {
 .key-visual_ttl {
   text-align: center;
 }
+
+/*-----x----- key-visual -------x---*/
+
+/*------------ sec01 ------------*/
+.sec01 {
+  background-color:#EBB94D;
+  text-align: center;
+  color: #fff;
+}
+
+.sec01 .title {
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.red-text {
+  background-color: #fff;
+  color: #C7254E;
+  display: inline-block;
+  padding: 1px 3px 1px 1px;
+  margin-bottom: 50px;
+}
+
+/*------x------ sec01 -------x-----*/
+
