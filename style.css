@@ -194,6 +194,7 @@ a {
 h1 {
   font-size: 28px;
   font-weight: 600;
+  text-align: center;
 }
 
 
@@ -247,6 +248,7 @@ h1 {
   background-size: cover;
   width: 100%;
   height: 500px;
+  background-position: center;
 }
 
 .key-visual_title {
@@ -277,18 +279,100 @@ h1 {
   color: #fff;
 }
 
-.sec01 .title {
+.sec01-title {
   margin-bottom: 20px;
   padding-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
 }
 
 .red-text {
   background-color: #fff;
   color: #C7254E;
   display: inline-block;
-  padding: 1px 3px 1px 1px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.sec01-btn {
+  height: 110px;
+  max-width: 1030px;
+  border: 1px solid #da6b64;
+  text-align: center;
+  line-height: 110px;
+  border-radius: 55px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.sec01-btn a {
+  display: block;
+  font-size: 28px;
+}
+
+.sec01-btn :hover{
+  background: #D84940;
+  border-radius: 55px;
+  display: inline-block;
+  height: 110px;
+  max-width: 1030px;
+  width: 100%;
+}
+
+.sec01 ul {
+  padding-bottom: 40px;
+}
+
+.sec01 li {
+  font-size: 21px;
+  font-weight: 600;
   margin-bottom: 50px;
 }
 
 /*------x------ sec01 -------x-----*/
 
+/*----------- sec02 -------------*/
+.sec02 {
+  background-image: url(img/introbottom.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 580px;
+  background-position: center;
+}
+
+.title::before, .title::after {
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.title::before {
+  border-top: 4px solid #eab857;
+  border-left: 4px solid #eab857;
+  top: 0;
+  left: 0;
+}
+
+.title::after {
+  border-right: 4px solid #eab857;
+  border-bottom: 4px solid #eab857;
+  bottom: 0;
+  right: 0;
+}
+
+.title {
+  margin: 0 auto;
+  position: relative;
+  width: 860px;
+  padding: 40px;
+  margin: 40px auto;
+}
+
+/*-----x----- sec02 ------x-----*/
