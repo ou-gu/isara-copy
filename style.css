@@ -170,6 +170,7 @@ select {
 /*------------ body ---------------*/
 body {
   box-sizing: border-box;
+  font-family:  "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
 }
 
 a {
@@ -188,9 +189,13 @@ a {
   background: #D84940;
   border-radius: 25px;
   display: inline-block;
-  height: 44px;
-  width: 318px;
 }
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
 
 
 /* ----x------- body -------x-----*/
@@ -244,9 +249,24 @@ a {
   height: 500px;
 }
 
-.key-visual_ttl {
+.key-visual_title {
   text-align: center;
+  padding-top: 95px;
+  line-height: 50px;
 }
+
+.logo-l {
+  margin-top: 20px;
+  height: 110px;
+}
+
+.sub-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
 
 /*-----x----- key-visual -------x---*/
 
