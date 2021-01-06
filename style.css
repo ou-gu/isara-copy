@@ -443,3 +443,53 @@ a {
 
 
 /*-----x----- sec03 ------x-----*/
+
+
+/*----------- sec04 ------------*/
+.sec04 {
+  background-image: url(img/aboutsecondbg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.sec04 h2,.sec04 p {
+  color: #fff;
+}
+
+.yellwtext {
+  color: #EBB94D;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-m {
+  background-color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  height: 170px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.box-m p {
+  color: #000;
+}
+
+.bg-yellw {
+  background-color: #EBB94D;
+  margin: 20px;
+  border-radius: 5px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+/*-----x----- sec04 ------x-----*/
+
